@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.parent{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%), url('bank 2 1.png');
+}
+#hero{
+    padding-top: 10%;
+    padding-bottom: 18%;
+}
+#hero h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffff;
+
+}
+#hero p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.btn-blue{
+    background: #000077 !important;
+    border-radius: 7px !important;
+    width: 194px;
+    height: 53px;
+
+}
+.kinda{
+    margin-top: 8%;
+    margin-bottom:-40%;
+    border-radius: 12px;
+    /* box-shadow: 1px 4px 28.700000762939453px 8px #77777991; */
+    /* top: 135%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 83%; */
+}
+.info{
+    background-image: url('Rectangle 279.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    padding-top: 20%;
+    padding-bottom: 20%;
+    position: absolute;
+    top: 34%;
+    left: 3%;
+    right: 3%;
+    bottom: 10%;
+    height: 240px;
+    /* width: 93.5%; */
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.info p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+.info small{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.rlx{
+    border-radius: 10px;
+    height: 363px;
+    object-fit: cover;
+}
+#snd{
+    background: #DEDEEF;
+    height: 280px;
+    color: #DEDEEF;
+}
+#welcome{
+    padding: 10% 0;
+}
+#welcome h2, #asist h2, #secure h2{
+    color: #282828;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+
+}
+#welcome p, #secure p, #megg p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+}
+.title{
+    position: relative;
+}
+.title::before{
+    width: 192px;
+    height: 6px;
+    background-color: #000077;
+    content: "";
+    top: -10px;
+    position: absolute;
+}
+#asist{
+    padding: 5% 0;
+    background: #DEDEEF;
+
+}
+/* #asist small{
+    color: #FFFFFFA3;
+} */
+.bg-blue{
+    background: #000077;
+}
+#megg{
+    background-color: #DEDEEF;
+    padding: 5% 0;
+}
+#megg h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0em;
+}
+.sme{
+    padding: 12% 0;
+    background-image: url('https://s3-alpha-sig.figma.com/img/ece6/b3f5/30f402465da4e061356b032b8fc10a70?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XwPYCXIRTSV9rI0puHAM9~VnAuC~S1xsXnmBoytUXZFmB8JT8CoJ0a2AlhM-jlj-s9E6io-zPTl78ga2k9j9JK45ZqlgYycaq9p1Gzrs5T66T4hmad7PLR3Vnp4xN0NhySyVH~IV6EZXFSpJK1ypU7rDZxI2axT0h2uzpKLKuWp0EMK5wQ1wEEsA~vqQyG6ppKDF7reLxwWB4D8F7JD0ueb61e8n1HMuPYsyhm6fWeqYzKvbzyms38A1lG1mfEW2SXJ7344Y52GAxN7D3WME-nf-c1I-yieRZuI9qfWOzHY2fC4O9no~GfCX2LPRUepxp93z6I7N1RStFS~mA3YnXA__');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pro{
+    background-color: #DEDEEF;
+}
+.bg-purple{
+    background: #0000778A;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-content: center;
+}
+.bffr{
+    margin-bottom: -30%;
+    margin-top: 10%;
+}
+#foreign{
+    background-color: #DEDEEF;
+    padding-top: 15%;   
+}
+#foreign h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#foreign p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.country{
+    width: 100px;
+}
+.bg-light-purple{
+    background-color: #00007766;
+}
+#chart{
+    padding-top: 10%;
+    background-color: #DEDEEF;
+    height: 800px;
+}
+#form1{
+    padding: 5% 0;
+}
+.frinner{
+    background-color: #DEDEEF;
+}
+.frinner h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.frinner p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.inp{
+    border: none;
+    border-bottom: 2px solid #555;
+}
+.bg-light-blue{
+    background-color: #DEDEEF;
+    padding-top: 5%;
+}
+.nwbg{
+    padding: 5% 0;
+}
+#footer input{
+    height: 35px;
+}
+.active{
+    border: 1px solid #000077;
+    border-radius: 7px;
+}
+.check{
+    background-color: #fff;
+    color: #282828 !important;
+    cursor: pointer;
+}
+.help{
+    color: #000077;
+}
+.check:hover{
+    background-color: #000077;
+    color: #fff !important;
+}
+.check:hover small{
+    color: #FFFFFFA3;
+}
+.check:hover .help{
+    color: #fff;
+}
+@media(max-width: 1024px){
+    .sme{
+        background-image: linear-gradient(107.26deg, rgba(0, 0, 0, 0.43) 0.77%, rgba(0, 0, 0, 0.43) 100%), url('https://s3-alpha-sig.figma.com/img/ece6/b3f5/30f402465da4e061356b032b8fc10a70?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XwPYCXIRTSV9rI0puHAM9~VnAuC~S1xsXnmBoytUXZFmB8JT8CoJ0a2AlhM-jlj-s9E6io-zPTl78ga2k9j9JK45ZqlgYycaq9p1Gzrs5T66T4hmad7PLR3Vnp4xN0NhySyVH~IV6EZXFSpJK1ypU7rDZxI2axT0h2uzpKLKuWp0EMK5wQ1wEEsA~vqQyG6ppKDF7reLxwWB4D8F7JD0ueb61e8n1HMuPYsyhm6fWeqYzKvbzyms38A1lG1mfEW2SXJ7344Y52GAxN7D3WME-nf-c1I-yieRZuI9qfWOzHY2fC4O9no~GfCX2LPRUepxp93z6I7N1RStFS~mA3YnXA__');
+    }
+    .info{
+        background-image: url('Rectangle 279.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        /* background-position: center; */
+        padding-top: 20%;
+        padding-bottom: 20%;
+        position: absolute;
+        top: 34%;
+        left: 3%;
+        right: 3%;
+        bottom: 0%;
+        height: 240px;
+        /* width: 93.5%; */
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+@media(max-width: 767px){
+    .ovx{
+        overflow-x: scroll;
+    }
+    #hero h2{
+        font-size: 32px;
+        line-height: normal;
+    }
+    #snd{
+        height: 150px;
+        font-size: 0px;
+    }
+    #welcome h2, #asist h2, #secure h2{
+        font-size: 24px;
+        line-height: normal;
+    }
+    #megg h2{
+        font-size: 32px;
+        line-height: normal;
+    }
+ 
+    /* #form1{
+        margin-top: 10%;
+    } */
+    #foreign{
+        padding-top: 20%;
+    }
+}

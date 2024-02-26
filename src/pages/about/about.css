@@ -1,0 +1,81 @@
+#abtfirst{
+    background-image: url('hero-bg-small 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 3%;
+}
+#abtfirst h2, #abt4th h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0em;
+    color: #282828;
+
+}
+#abtfirst p, #abt3rd p, #abt5th p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #282828;
+}
+#abt2nd{
+    padding: 10% 0;
+    background-color: #DEDEEF;
+}
+#abt3rd{
+    padding: 10% 0;
+}
+#abt3rd h2, #abt5th h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282828;
+}
+#abt4th, #abt6th{
+    padding: 5% 0;
+    background-color: #DEDEEF;
+}
+#abt4th small{
+    /* font-size: 16px; */
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+#abt7{
+    padding: 10% 0;
+}
+#abt8{
+    background-color: #DEDEEF;
+    padding: 10%;
+}
+.what{
+    background-color: #fff;
+}
+.what:hover{
+    background-color: #000077;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+    #abtfirst h2, #abt4th h2{
+        font-size: 24px;
+    }
+    #abt3rd h2, #abt5th h2 {
+        font-size: 24px;
+        line-height: normal;
+    }
+    #abt5th{
+        margin-bottom: 10%;
+    }
+}

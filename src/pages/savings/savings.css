@@ -1,0 +1,69 @@
+#sav1{
+    background-image:linear-gradient(107.26deg, rgba(0, 0, 0, 0.83) 0.77%, rgba(0, 0, 0, 0.66) 100%), url('https://s3-alpha-sig.figma.com/img/1e5a/c425/0f7bd2c8746128c36833a614fe11665a?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KdeSHnR~qLLDuj0-9sqQ3~zMWJAF7B2KIjKCGZQahEfAGyAyK6gowcDuMhqHuEKPRNAXQY83O9Bm0npSc2EtckyQ-1NQJV~dhwPyIPHD1qtVld-nYRM-5LN~jvVLfSUMOkmEk7qXIrOekc6Phi91RwBR-ewjP-2jWMXj-P1LLb9m8eXBsvk1ElDdPUj~xANwzw0YLThgI7yVBfkBjj7Ct7OX8iBnqIP8T50UXBzFnqx2jy8htdYLkwJmyWtaKjZTKSJGl09UTbnI1EcUpVtMIcWtBoNEPxoECgICnAupSe314TJYzuN0N5KAVXZIUea~6Xo6YU0g-aBowX83lvQpYg__');
+    padding: 20%;
+}
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0em;
+    color: #fff;
+
+}
+h5{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+
+}
+.nwbtn{
+    width: 125px;
+    height: 53px;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+}
+#sav2{
+    padding: 10% 0;
+}
+#sav3{
+    padding: 5% 0;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%), url('https://s3-alpha-sig.figma.com/img/ece6/b3f5/30f402465da4e061356b032b8fc10a70?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XwPYCXIRTSV9rI0puHAM9~VnAuC~S1xsXnmBoytUXZFmB8JT8CoJ0a2AlhM-jlj-s9E6io-zPTl78ga2k9j9JK45ZqlgYycaq9p1Gzrs5T66T4hmad7PLR3Vnp4xN0NhySyVH~IV6EZXFSpJK1ypU7rDZxI2axT0h2uzpKLKuWp0EMK5wQ1wEEsA~vqQyG6ppKDF7reLxwWB4D8F7JD0ueb61e8n1HMuPYsyhm6fWeqYzKvbzyms38A1lG1mfEW2SXJ7344Y52GAxN7D3WME-nf-c1I-yieRZuI9qfWOzHY2fC4O9no~GfCX2LPRUepxp93z6I7N1RStFS~mA3YnXA__');
+    background-size: cover;
+    background-position: center;
+}
+#sav4{
+    padding: 10% 0;
+}
+#sav4 ul li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#sav5{
+    padding: 10% 0;
+    background: linear-gradient(264.61deg, rgba(12, 12, 56, 0.2) 0%, rgba(0, 0, 119, 0.166) 77.04%),
+linear-gradient(93.68deg, #000077 0.42%, #04041F 98.35%);
+}
+#sav6{
+    padding: 5%;
+}
+
+@media(max-width: 767px){
+    h1{
+        font-size: 32px;
+        line-height: normal;
+    }
+    #sav1 {
+        padding-inline: 2%;
+    }
+    h2{
+        font-size: 24px;
+    }
+}
