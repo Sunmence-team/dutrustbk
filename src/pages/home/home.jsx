@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import './home.css'
 import TradingViewWidget from '../../components/Tradingview';
 import Footer from '../../components/Footer';
@@ -9,14 +9,34 @@ AOS.init({
     duration: 2000
 });
 function home() {
+
+    const [scrolling, setScrolling] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > 100) { // Adjust 100 to whatever scroll position you prefer
+          setScrolling(true);
+        } else {
+          setScrolling(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+
+
   return (
     <div className='overflow-x-hidden'>
         <div className="parent">
-      <nav className="navbar navbar-expand-lg">
+        <nav className={`navbar navbar-expand-lg ${scrolling ? 'scrolled' : ''} fixed-top w-100`}>
   <div className="container">
   <Link className="navbar-brand" to="/"><img src="dt.png" alt="" className='logo' /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="bi bi-list text-white fs-2"></i>
+    <i class="bi bi-list text-blue fs-2"></i>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto">

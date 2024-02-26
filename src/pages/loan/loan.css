@@ -21,6 +21,9 @@
     padding: 5% 0;
     background-color: #DEDEEF;
 }
+.text-blue{
+    color: #000077;
+}
 h6{
     font-size: 16px;
     font-weight: 400;
@@ -41,6 +44,9 @@ h6{
 }
 #loan5{
     padding: 10% 0;
+}
+.fight{
+    padding-top: 10%;
 }
 h4{
     font-size: 24px;
@@ -74,5 +80,8 @@ h4{
 @media(max-width: 767px){
     h2{
         line-height: normal !important;
+    }
+    .fight{
+        padding-top: 30%;
     }
 }

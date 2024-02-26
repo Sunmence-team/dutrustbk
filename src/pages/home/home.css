@@ -7,8 +7,19 @@
 .parent{
     background-image: linear-gradient(to right, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%), url('bank 2 1.png');
 }
+nav {
+    /* Your default navbar styles */
+
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+  }
+  
+  nav.scrolled {
+    background-color: #fff; /* Change to the desired color */
+    /* Additional styles for the scrolled state */
+  }
+  
 #hero{
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 18%;
 }
 #hero h2{
@@ -269,6 +280,9 @@
 }
 
 @media(max-width: 767px){
+    #hero{
+        padding-top: 35%;
+    }
     .ovx{
         overflow-x: scroll;
     }
@@ -294,5 +308,16 @@
     } */
     #foreign{
         padding-top: 20%;
+    }
+    .navbar-collapse{
+        background-color: #333 !important;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 10px;
+    }
+    
+     .nav-link{
+        color: #ffff !important;
+        text-align: center;
     }
 }

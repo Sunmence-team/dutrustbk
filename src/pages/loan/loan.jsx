@@ -1,16 +1,33 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import './loan.css'
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer';
 const loan = () => {
+    const [scrolling, setScrolling] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > 100) { // Adjust 100 to whatever scroll position you prefer
+          setScrolling(true);
+        } else {
+          setScrolling(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <section id='abtfirst'>
-       <nav className="navbar navbar-expand-lg">
+      <nav className={`navbar navbar-expand-lg ${scrolling ? 'scrolled' : ''} fixed-top w-100`}>
   <div className="container">
   <Link className="navbar-brand" to="/"><img src="dt.png" alt="" className='logo' /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="bi bi-list text-black fs-2"></i>
+    <i class="bi bi-list text-blue fs-2"></i>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto">
@@ -36,25 +53,28 @@ const loan = () => {
 
 
         <div className="container">
-            <div className="d-flex justify-content-between align-items-end">
-                <div className='col-1'>
-                    <img src="unsplash_SLjQgffgmeQ.png" alt="" className='w-100' />
-                </div>
-                <div className='col-10 px-lg-5'>
-                    <div className="px-lg-5">
-                <h2 className='text-center'>Commercial Real Estate Loans</h2>
-                <p className='text-center'>Discover the essence of Duty Trust Bank, where financial expertise meets unwavering commitment, providing innovative solutions tailored to your unique needs and ensuring a trusted partnership in your financial journey</p>
+            <div className="fight">
+                <div className="d-flex justify-content-between align-items-end">
+                    <div className='col-1'>
+                        <img src="unsplash_SLjQgffgmeQ.png" alt="" className='w-100' />
+                    </div>
+                    <div className='col-10 px-lg-5'>
+                        <div className="px-lg-5">
+                    <h2 className='text-center'>Commercial Real Estate Loans</h2>
+                    <p className='text-center'>Discover the essence of Duty Trust Bank, where financial expertise meets unwavering commitment, providing innovative solutions tailored to your unique needs and ensuring a trusted partnership in your financial journey</p>
 
+                        </div>
+                    </div>
+                    <div className="row g-0 align-items-end justify-content-end flex-nowrap">
+                        <div className="col-7">
+                            <img src="unsplash_SoT4-mZhyhE.png" alt="" className='w-100 ' />
+                        </div>
+                    <div className="col-9">
+                        <img src="unsplash_63UYIw9CINk@2x.png" alt="" className='w-100' />
+                    </div>
                     </div>
                 </div>
-                <div className="row g-0 align-items-end justify-content-end flex-nowrap">
-                    <div className="col-7">
-                        <img src="unsplash_SoT4-mZhyhE.png" alt="" className='w-100 ' />
-                    </div>
-                <div className="col-9">
-                    <img src="unsplash_63UYIw9CINk@2x.png" alt="" className='w-100' />
-                </div>
-                </div>
+
             </div>
         </div>
     </section>
