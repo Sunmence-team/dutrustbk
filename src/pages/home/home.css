@@ -14,7 +14,7 @@ nav {
   }
   
   nav.scrolled {
-    background-color: #fff; /* Change to the desired color */
+    background-color: #333; /* Change to the desired color */
     /* Additional styles for the scrolled state */
   }
   
@@ -283,6 +283,11 @@ nav {
     #hero{
         padding-top: 35%;
     }
+    nav.scrolled {
+        background-color: #fff; /* Change to the desired color */
+        /* Additional styles for the scrolled state */
+        color: #fff !important;
+      }
     .ovx{
         overflow-x: scroll;
     }
