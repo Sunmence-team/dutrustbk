@@ -1,5 +1,6 @@
+
 #abtfirst{
-    background-image: url('hero-bg-small 1.png');
+    background-image: url('https://s3-alpha-sig.figma.com/img/74d0/8102/4d5d2c1fc8fed3c148feeb8c7bd6ae13?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UaVeGAbXJpqeDtlYSsLZmYNltkFifOutzpyllqeFUUX-tKeXgP8G41X~n2aF1AYEqY~YrJFhQDJ-VI7~N79XWUH3RMdOIozZYMhdH4XFSCxoeYjS4flB~XD2irb5cDBCbZ-Ua-zN18w4QNQaVCdjDOBy72sOKoTb1od5tLA8r8yd~-XUvTDGPeBHvSHzQX7PiivArBZmsZ0j3e8FLClpZLpJ~aVHidAmDuztgaLXkfYp984ti5UuZpNW~bWIlD8D4egmbCZxd6eOThCjgx3vGYglmGJMvqGmumw5wSCkcpiWsqlEedSpN4YDHknZWqW7YMYCCLV1EO33tYQK6GGFSA__');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -44,6 +45,9 @@
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
+}
+.frinner input{
+    outline: none;
 }
 #abt7{
     padding: 10% 0;

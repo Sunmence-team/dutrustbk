@@ -5,7 +5,8 @@
     font-family: "Open Sans", sans-serif;
 }
 .parent{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%), url('bank 2 1.png');
+    background: linear-gradient(107.26deg, rgba(0, 0, 0, 0.83) 0.77%, rgba(0, 0, 0, 0.66) 100%),url('https://s3-alpha-sig.figma.com/img/b0be/035f/bffb6de11c37c4df13df4d651f543777?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B9Az~Q5lntsEqsVbRfOk-i7Pn~DThn2uF5d87uVycR0nVm~fMGLmKmkvAU20Q7USnPF0Mr4dtx44MQQW1FJDg85IneeOEIwHOyIMo4baqfdc2~ovQzqc~VkaL9gMmdd~BHeRpOsaFNOMaRbCi5tm1SX2~DBV-tZbNTmWAatXOgVPG7zHFaAUZ2-Hnse8GCCAJeICabRyV12gp9Jov~N5z-RIPujbirHR3o3G4066R-yE89UmXEWZojdEfsG9nkxDyNlb~hEfsn6Q3qYfKkr911H29OYrSUgd3y01h5-MJixq-WWca3CXrqj2VhLynIM0bQB3Q-QAU2SARS4znjHf9Q__');
+    background-size: cover;
 }
 nav {
     /* Your default navbar styles */
@@ -57,7 +58,7 @@ nav {
     width: 83%; */
 }
 .info{
-    background-image: url('Rectangle 279.png');
+    /* background-image: url('Rectangle 279.png'); */
     background-size: contain;
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -67,11 +68,13 @@ nav {
     top: 34%;
     left: 3%;
     right: 3%;
+    background: linear-gradient(107.35deg, rgba(0, 0, 119, 0.6) 5.84%, rgba(0, 0, 119, 0.42) 99.15%);
     bottom: 10%;
     height: 240px;
     /* width: 93.5%; */
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    
 }
 .info p{
     font-size: 20px;
@@ -114,6 +117,17 @@ nav {
     line-height: 22px;
     letter-spacing: 0em;
 
+}
+#secure{
+    padding: 5% 0;
+}
+#footer ul{
+    list-style: none;
+}
+
+#footer a{
+    color: #fff;
+    text-decoration: none;
 }
 .title{
     position: relative;
@@ -196,7 +210,7 @@ nav {
 #chart{
     padding-top: 10%;
     background-color: #DEDEEF;
-    height: 800px;
+    height: fit-content;
 }
 #form1{
     padding: 5% 0;
@@ -260,7 +274,7 @@ nav {
         background-image: linear-gradient(107.26deg, rgba(0, 0, 0, 0.43) 0.77%, rgba(0, 0, 0, 0.43) 100%), url('https://s3-alpha-sig.figma.com/img/ece6/b3f5/30f402465da4e061356b032b8fc10a70?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XwPYCXIRTSV9rI0puHAM9~VnAuC~S1xsXnmBoytUXZFmB8JT8CoJ0a2AlhM-jlj-s9E6io-zPTl78ga2k9j9JK45ZqlgYycaq9p1Gzrs5T66T4hmad7PLR3Vnp4xN0NhySyVH~IV6EZXFSpJK1ypU7rDZxI2axT0h2uzpKLKuWp0EMK5wQ1wEEsA~vqQyG6ppKDF7reLxwWB4D8F7JD0ueb61e8n1HMuPYsyhm6fWeqYzKvbzyms38A1lG1mfEW2SXJ7344Y52GAxN7D3WME-nf-c1I-yieRZuI9qfWOzHY2fC4O9no~GfCX2LPRUepxp93z6I7N1RStFS~mA3YnXA__');
     }
     .info{
-        background-image: url('Rectangle 279.png');
+        background: linear-gradient(107.35deg, rgba(0, 0, 119, 0.6) 5.84%, rgba(0, 0, 119, 0.42) 99.15%);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;

@@ -44,7 +44,7 @@ const loan = () => {
           <Link className="nav-link text-secondary px-4 active" to="/loan">Loan</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-secondary px-4" to="/">Login</Link>
+          <a href='https://dashboard.duttrustbk.com/login.php' className="nav-link text-secondary px-4" >Login</a>
         </li>
     </ul>
     </div>
@@ -89,7 +89,7 @@ const loan = () => {
                 <li className='text-white mb-3'><span className='bby'>ONLINE APPLICATION</span></li>
             </ul>
 
-            <button className='btn btn-blue text-white text-uppercase mt-3'>Lean More</button>
+            <a href="https://dashboard.duttrustbk.com/login.php"><button className='btn btn-blue text-white text-uppercase mt-3'>Lean More</button></a>
 
             </div>
         </div>
@@ -153,7 +153,7 @@ const loan = () => {
                             <li>Cardmember Service available 24 hours a day/365 days per year.</li>
                         </ul>
 
-                        <button className="btn btn-blue text-white text-uppercase">Apply Now</button>
+                        <a href="https://dashboard.duttrustbk.com/login.php"><button className="btn btn-blue text-white text-uppercase">Apply Now</button></a>
                     </div>
                 </div>
             </div>

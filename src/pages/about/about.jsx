@@ -50,7 +50,7 @@ const about = () => {
           <Link className="nav-link text-secondary px-4" to="/loan">Loan</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-secondary px-4" to="/">Login</Link>
+          <a href='https://dashboard.duttrustbk.com/login.php' className="nav-link text-secondary px-4" >Login</a>
         </li>
     </ul>
     </div>
@@ -107,7 +107,7 @@ const about = () => {
                     <h2>Welcome To Duty Trust Bank</h2>
                     <p>At Duttrust, we are committed to providing you with unparalleled banking services designed to enhance your financial well-being. With a rich history of trust and reliability, we strive to empower our customers through innovative solutions, personalized attention, and a steadfast dedication to security. Discover a partner in your financial journey—where your aspirations meet our expertise</p>
 
-                    <button className="btn btn-blue text-white text-uppercase">Learn more</button>
+                    <Link to='/loan'><button className="btn btn-blue text-white text-uppercase">Learn more</button></Link>
                     </div>
                 </div>
                 <div className="col-lg-5" data-aos="fade-left">
@@ -170,14 +170,14 @@ const about = () => {
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-5" data-aos="fade-right">
-                    <img src="https://s3-alpha-sig.figma.com/img/538c/44d6/6fd8d5f1825c339026c12f870b1f9588?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z4f-DOx9oJttO7IAkm1ULiY1brgsfb-37RZBqvOsHKfvJUSpdCLtD6G1cHpHsmlPN2UB2VfNgB6HbR~a2e4D5aV-12DZoN-HhXuVVVsjPm1Ht58qUDAmp9BAYZJG25r9a2ktDzycG174GL7E9Cv3TxJl1Tfm2iJcuJV8o60HZf0VlYu56dCzLIaxlbJVHibcvhH45R3on8WtQmyaety2lyo5PNiP8JdYsTrtWHQVtpLkuuRGuvlpoTL4wu8wJWWJOhDEMDdA1E1WhSnskkGSN6mKv92OPhw62d1LsP9DM4l5kyvVNCSl2rWoym9SrWPvstjXyrV4blyZINsZuWlE2w__" alt="" className="w-100" />
+                    <img src="IMG-20240229-WA0007 2.png" alt="" className="w-100" />
                 </div>
                 <div className="col-lg-7 my-md-5 my-lg-0" data-aos="fade-left">
                     <div className="title">
-                    <h2>Secure technology and friendly customer service - from anywhere.</h2>
+                    <h2>Professionalism defined: secure tech, unmatched service, accessible anywhere.</h2>
                     </div>
                     <p>Experience the perfect blend of secure technology and friendly customer service, all accessible from the comfort of anywhere you are. At Duty Trust Bank, we prioritize your peace of mind by combining cutting-edge security measures with a warm and responsive customer support team. Enjoy the convenience of banking with confidence, wherever life takes you</p>
-                    <button className="btn btn-blue text-white text-uppercase">learn more</button>
+                    <Link to='/savings'><button className="btn btn-blue text-white text-uppercase">learn more</button></Link>
                 </div>
             </div>
         </div>

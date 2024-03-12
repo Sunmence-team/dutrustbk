@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div>
@@ -10,17 +10,23 @@ const Footer = () => {
                         <div className="col-lg-4 gy-3 gy-lg-0">
                            <img src="logo.jpg" alt="" className='w-25 rounded-3' />
                             <div className="w-100 d-flex gap-3 mt-3">
-                            <i class="bi bi-instagram text-white fs-2"></i> 
-                            <i class="bi bi-facebook text-white fs-2"></i>
-                            <i class="bi bi-twitter-x text-white fs-2"></i>
-                            <i class="bi bi-youtube text-white fs-2"></i>
+                            <i className="bi bi-instagram text-white fs-2"></i> 
+                            <i className="bi bi-facebook text-white fs-2"></i>
+                            <i className="bi bi-twitter-x text-white fs-2"></i>
+                            <i className="bi bi-youtube text-white fs-2"></i>
 
                             </div>
                         </div>
                         <div className="col-lg-4 gy-3 gy-lg-0">
-                            <h5 className='text-white'>Contact</h5>
-                            <small className='text-white'>24 Lekki Phase 2, NY11021 Women Modeling Agency</small>
-                            <small className='text-white'>08024023021,12-342-675</small>
+                            <h5 className='text-white'>Quick Links</h5>
+                            {/* <small className='text-white'>24 Lekki Phase 2, NY11021 Women Modeling Agency</small>
+                            <small className='text-white'>08024023021,12-342-675</small> */}
+                            <ul className='m-0 p-0'>
+                                <Link to="/"><li className='text-white'>Home</li></Link>
+                                <Link to="/about"><li className='text-white'>About</li></Link>
+                                <Link to="/savings"><li className='text-white'>Savings</li></Link>
+                                <Link to="/loan"><li className='text-white'>Loan</li></Link>
+                            </ul>
                         </div>
                         <div className="col-lg-4 gy-3 gy-lg-0">
                             <h5 className='text-white'>Subscribe</h5>
@@ -33,8 +39,6 @@ const Footer = () => {
                                 </form>
                         </div>
                     </div>
-
-                    <hr className='opacity-100 text-white mt-5' />
                 </div>
             </div>
         </section>

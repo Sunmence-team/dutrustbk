@@ -45,7 +45,7 @@ const savings = () => {
           <Link className="nav-link text-secondary px-4" to="/loan">Loan</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link text-secondary px-4" to="/">Login</Link>
+          <a href='https://dashboard.duttrustbk.com/login.php' className="nav-link text-secondary px-4" >Login</a>
         </li>
     </ul>
     </div>
@@ -74,6 +74,7 @@ const savings = () => {
                 </div>
             </div>
         </div>
+        <input type="text" />f
     </section>
 
     <section id='sav1'>
@@ -82,7 +83,8 @@ const savings = () => {
             <h1 className='text-center'>Prime Business Savings</h1>
             <h5 className='text-white text-center'>A free and simple savings account that earns interest on all balances. Ask us about our extended deposit insurance option.</h5>
             <div className="d-flex justify-content-center mt-4">
-            <button className='btn btn-outline-light px-4 nwbtn'>Login</button>
+            <a href="https://dashboard.duttrustbk.com/login.php">
+            <button className='btn btn-outline-light px-4 nwbtn'>Login</button></a>
             </div>
             </div>
         </div>
@@ -130,7 +132,7 @@ const savings = () => {
                             <li>Zero Fraud Liability.* You won’t be liable for fraudulent purchases when your card is lost or stolen.</li>
                             <li>Cardmember Service available 24 hours a day/365 days per year.</li>
                         </ul>
-                        <button className="btn btn-blue text-white text-uppercase">Apply now</button>
+                        <a href="https://dashboard.duttrustbk.com/login.php"><button className="btn btn-blue text-white text-uppercase">Apply now</button></a>
                 </div>
             </div>
         </div>
@@ -141,7 +143,7 @@ const savings = () => {
             <h1 className='text-center'>Get started with Duty Trust Bank today.</h1>
             <p className='text-white text-center'>We’re here to help.</p>
             <div className="d-flex justify-content-center">
-            <button className="btn btn-outline-light text-white nwbtn">Contact</button>
+            {/* <button className="btn btn-outline-light text-white nwbtn">Contact</button> */}
             </div>
         </div>
     </section>
